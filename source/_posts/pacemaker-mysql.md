@@ -4,7 +4,7 @@ date: 2018-03-05 17:59:24
 tags: ['linux','mysql','ha']
 ---
 
-在上一篇blog中[mysql-replication](https://yanyixing.github.io/2018/03/02/mysql-replication/)介绍了如何配置mysql(mariadb)主从复制。我们还可以添加从节点到主节点的复制关系，这样就达到了mysql(mariadb)双向复制。
+在上一篇blog中[mysql-replication](https://hkyyx.github.io/2018/03/02/mysql-replication/)介绍了如何配置mysql(mariadb)主从复制。我们还可以添加从节点到主节点的复制关系，这样就达到了mysql(mariadb)双向复制。
 
 下面的配置通过pacemaker管理一个双向复制的mysql(mariadb)和一个VIP来实现mysql(mariadb)在双节点上的高可用。
 
